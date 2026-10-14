@@ -5,15 +5,15 @@ import smtplib
 import json
 
 task = 'Выполните задачу: '
-task_time = datetime(2026,10,7,19,53,)
+task_time = datetime(2026, 10, 7, 19, 53, )
 time_now = datetime.now()
 
-print('___'*50)
+print('___' * 50)
 print('Моя задача: ')
-print('___'*50)
+print('___' * 50)
 print(f'{task.capitalize()}')
 print(f'Выполнить: {task_time}')
-print('___'*50)
+print('___' * 50)
 print()
 print(f'Текущее время: {time_now}')
 
