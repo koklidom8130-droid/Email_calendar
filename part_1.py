@@ -6,6 +6,7 @@ import json
 
 task = 'Выполните задачу: '
 task_time = datetime(2026, 10, 7, 19, 53, )
+
 time_now = datetime.now()
 
 print('___' * 50)
